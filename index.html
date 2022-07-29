@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="estilos css/estilos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="./estilos css/bootstrap.css">
+
+  <link rel="stylesheet" href="./estilos css/estilos.css">
 
 
   <title>inicio</title>
@@ -19,56 +22,98 @@
   <header class="header">
     <h1 class="header__titulo">Auto ya !!</h1>
 
-    <a  href="#abrir" class="header__icono" > 
-      <span >icono</span></a>
-    
+    <a href="#abrir" class="header__icono">
+      <span>icono</span></a>
 
-      <ul class="barra__inicio"  id="abrir">
-        <li class="barra__item"><a href="paginas/miprefil.html">Mi perfil</a></li>
-        <li class="barra__item"><a href="paginas/buscar.html">Buscar</a></li>
-        <li class="barra__item"><a href="paginas/publicar.html">Publicar</a></li>
-        <li class="barra__item"><a href="paginas/contacto.html">Contacto</a></li>
-        <li class="barra__item"><a  href="#Nosotros">Nosotros</a></li>
-        <li class="barra__item barra__item--cerrar"><a href="#cerrar">Cerrar</a></li>
 
-      </ul>
+    <ul class="barra__inicio" id="abrir">
+      <li class="barra__item"><a href="paginas/miprefil.html">Mi perfil</a></li>
+      <li class="barra__item"><a href="paginas/buscar.html">Buscar</a></li>
+      <li class="barra__item"><a href="paginas/publicar.html">Publicar</a></li>
+      <li class="barra__item"><a href="paginas/contacto.html">Contacto</a></li>
+      <li class="barra__item"><a href="#Nosotros">Nosotros</a></li>
+      <li class="barra__item barra__item--cerrar"><a href="#cerrar">Cerrar</a></li>
+
+    </ul>
 
   </header>
   <hr>
 
   <main class="main">
-    <ul class="main__modelos">
-      <li><a href="paginas/buscar.html"> Renault</a></li>
-      <li><a href="paginas/buscar.html">Fiat</a></li>
-      <li><a href="paginas/buscar.html">Ford</a></li>
-      <li><a href="paginas/buscar.html"> Volkswagen</a></li>
-      <li><a href="paginas/buscar.html">Peugeot</a></li>
-      <li><a href="paginas/buscar.html">Chevrolet</a></li>
-      <li><a href="paginas/buscar.html">Citroen</a></li>
-      <li><a href="paginas/buscar.html">Toyota</a></li>
-      <li><a href="paginas/buscar.html">Honda</a></li>
-      <li><a href="paginas/buscar.html">Mercedes-Benz</a></li>
-      <li><a href="paginas/buscar.html">Suzuki</a></li>
-      <li><a href="paginas/buscar.html">Nissan</a></li>
 
-    </ul>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">Modelos</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="paginas/buscar.html"> Renault</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Fiat</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Ford</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html"> Volkswagen</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Peugeot</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Chevrolet</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Citroen</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Toyota</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Honda</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Mercedes-Benz</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Suzuki</a></li>
+        <li><a class="dropdown-item" href="paginas/buscar.html">Nissan</a></li>
 
-    <img class="main__imagen" src="imagenes/renault naranja.jpg" alt="autos">
+      </ul>
+    </div>
+
+
+
+    <!-- <img class="main__imagen" src="imagenes/renault naranja.jpg" alt="autos"> -->
+    <section  class="container">
+      
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/renault naranja.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/chevrolete rojo.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/camioneta negra.jfif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
 
     <iframe class="main__mapa"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15735.043601257143!2d-58.42632465331868!3d-34.601946072087365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca688994eb61%3A0xd055df0a7dafa86e!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1656300261008!5m2!1ses-419!2sar"
       width="400" height="300" style="border: 2px;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-           
+
   </main>
 
 
   <article>
-    <h2 class="nosotros" name="Nosotros" id="Nosotros" >
+    <h2 class="nosotros" name="Nosotros" id="Nosotros">
 
       Nosotros</h2>
-    <p class="nosotros__parrafo" >
+    <p class="nosotros__parrafo">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, fugiat, iste autem, pariatur dolor nulla
       accusantium alias asperiores
       repellendus quis provident sit! Quos minus, corporis voluptas necessitatibus amet deserunt vero?
@@ -96,6 +141,7 @@
     <p>nuestras redes</p>
 
   </footer>
+  <script src="./js/bootstrap.bundle.js"> </script>
 </body>
 
 </html>
