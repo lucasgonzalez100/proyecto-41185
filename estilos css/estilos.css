@@ -231,12 +231,9 @@
 .buscador__seccion {
 
   list-style: none;
-  border-radius: 5%;
-  background-color: rgb(44, 68, 68);
-  color: antiquewhite;
-  width: 30%;
-  height: 400px;
-  align-items: baseline;
+  
+  color: black;
+ 
   padding: 1rem;
   margin-top: 7px;
   margin-bottom: 25px
@@ -421,8 +418,10 @@
   }
 
   .buscador {
-
+    
+    width: 100%;
     margin: 25px;
+    font-style: unset;  
   }
 
   .publicar__datos {
