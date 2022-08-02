@@ -76,8 +76,6 @@
 }
 
 .main {
-
-
   position: static;
   z-index: 1000;
   margin-top: 25px;
@@ -87,6 +85,14 @@
   padding: 1rem;
   align-content: center;
 }
+
+.main__carrusel {
+
+  align-items: center;
+   height: 700px;
+   width: 100%;
+ 
+ }
 
 .main__modelos {
   list-style: none;
@@ -109,13 +115,6 @@
 
 }
 
-.main__imagen {
-
- align-items: center;
-  height: 500px;
-  width: 500px;
-
-}
 
 .main__mapa {
   height: 380px;
