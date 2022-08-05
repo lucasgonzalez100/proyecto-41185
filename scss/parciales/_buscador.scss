@@ -1,0 +1,50 @@
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 1rem;
+    border: 2px;
+    color: black solid;
+  
+  }
+  
+  .buscar__sub {
+    font-style: oblique;
+    padding: 1rem;
+    margin: 2rem;
+  
+  }
+  
+  .buscador__seccion {
+  
+    list-style: none;
+    
+    color: black;
+   
+    padding: 1rem;
+    margin-top: 7px;
+    margin-bottom: 25px
+  }
+  
+  .buscador__seccion__titulos {
+    margin-bottom: 55px;
+  }
+  
+  .buscador__img {
+  
+    margin: 1rem;
+    height: 60%;
+    width: 90%;
+  }
+  
+  .buscador__seccion--oporunidades {
+  
+  
+    height: 30%;
+    width: 30%;
+    margin: 15px 4px 15px 4px;
+  }
+  

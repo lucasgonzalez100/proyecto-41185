@@ -1,0 +1,61 @@
+.main {
+    position: static;
+    z-index: 1000;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-content: center;
+  }
+  
+  .main__carrusel {
+  
+    margin: 1px;
+    align-items: center;
+     
+     width: 100%;
+   
+   }
+  
+  .main__modelos {
+    list-style: none;
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: rgb(44, 68, 68);
+  
+  
+  }
+  
+  .main__modelos a {
+  
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 30px;
+    color: antiquewhite;
+  
+  }
+  
+  
+  .main__mapa {
+    height: 380px;
+    width: 380px;
+    border-style: groove;
+    margin-right: none;
+  }
+  
+  .nosotros {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .nosotros__parrafo {
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }

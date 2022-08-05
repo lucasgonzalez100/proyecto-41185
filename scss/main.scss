@@ -1,4 +1,10 @@
-.leo{
-    color:green;
-
-}
+@import "parciales/variables.scss";
+@import "parciales/base";
+@import "parciales/header";
+@import "parciales/mains";
+@import "parciales/forml";
+@import "parciales/footer";
+@import "parciales/buscador";
+@import "parciales/publicar";
+@import "parciales/perfil";
+@import "parciales/mediasQueris";

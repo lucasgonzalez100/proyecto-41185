@@ -1,0 +1,36 @@
+
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 25px;
+  
+  }
+  
+  .footer__p {
+  
+    display: flex;
+    justify-self: flex-start;
+  
+  
+  
+  }
+  
+  
+  .footer__a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    margin: 10px;
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 50%;
+  
+  
+  }
