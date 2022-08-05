@@ -88,8 +88,9 @@
 
 .main__carrusel {
 
+  margin: 1px;
   align-items: center;
-   height: 700px;
+   
    width: 100%;
  
  }
@@ -518,6 +519,8 @@
 
   .buscador__seccion {
 
+    align-items: center;
+    direction: rtl;
     width: 90%;
 
   }
