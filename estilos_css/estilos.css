@@ -5,14 +5,17 @@
 
 .inicio {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #2a3a3a;
+  background: #95b7c9;
+  background: radial-gradient(circle, #95b7c9 8%, #0d56c7 100%);
+  z-index: 1000;
   color: antiquewhite;
-  font-size: 20px; }
+  font-size: 20px;
+  color: black; }
 
 .header {
   color: black;
-  background-color: antiquewhite;
-  position: static;
+  background: #95b7c9;
+  background: radial-gradient(circle, #95b7c9 8%, #0d56c7 100%);
   z-index: 1000;
   display: flex;
   flex-direction: row;
@@ -35,7 +38,6 @@
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-  background: antiquewhite;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -145,7 +147,7 @@
   align-self: center;
   margin: 10px;
   font-size: 30px;
-  color: antiquewhite;
+  color: black;
   margin: 50%; }
 
 .buscador {
@@ -183,7 +185,7 @@
   width: 30%;
   margin: 15px 4px 15px 4px; }
 
-publicar__sub {
+.publicar__sub {
   margin-top: 25px;
   margin-left: 25px; }
 
@@ -208,14 +210,16 @@ publicar__sub {
 .publicar__imagenes1 {
   list-style: none;
   border-radius: 5%;
-  background-color: #2c4444;
-  color: antiquewhite;
+  background-color: white;
   width: 30%;
   height: 400px;
   align-items: baseline;
   padding: 1rem;
   margin-top: 7px;
   margin-bottom: 25px; }
+
+.publicar__imagenes2 {
+  margin: 1rem; }
 
 .publicar__boton {
   display: flex;
@@ -243,10 +247,9 @@ publicar__sub {
   flex-direction: column;
   list-style: none;
   width: 30%;
-  height: 700px;
-  border-radius: 5%;
-  background-color: #2c4444;
-  color: antiquewhite;
+  height: 750px;
+  border-radius: 12px;
+  background-color: white;
   align-items: center;
   padding: 2rem;
   margin-top: 7px;

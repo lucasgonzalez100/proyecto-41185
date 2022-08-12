@@ -1,4 +1,5 @@
-publicar__sub {
+
+.publicar__sub {
     margin-top: 25px;
     margin-left: 25px;
   
@@ -36,14 +37,19 @@ publicar__sub {
   
     list-style: none;
     border-radius: 5%;
-    background-color: rgb(44, 68, 68);
-    color: antiquewhite;
+    background-color: white;
     width: 30%;
     height: 400px;
     align-items: baseline;
     padding: 1rem;
     margin-top: 7px;
     margin-bottom: 25px
+  }
+
+  .publicar__imagenes2 {
+
+  margin: 1rem;
+
   }
   
   .publicar__boton {
