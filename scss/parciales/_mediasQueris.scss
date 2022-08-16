@@ -1,3 +1,4 @@
+
 @media screen and (max-width:1023px) {
 
     .main {
@@ -86,6 +87,25 @@
   }
   
   }
+
+  @media screen and (max-width:800px) {
+
+  .miperfil__form{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 90%;
+    height: 700px;
+    border-radius: 5%;
+    background-color: gainsboro;
+    color: black;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+ }
   
   
   @media screen and (max-width:600px) {
@@ -107,7 +127,19 @@
     }
   
     .header__icono {
-      display: block;
+      
+        display: flex;
+        margin: 0;
+        display:inline-block;
+        height: 18px;
+        float:none; 
+        
+        & img {
+          margin: 0;
+        display:flex;
+        height: 35px;
+        float:none;
+        }
   
     }
   
@@ -135,8 +167,8 @@
       width: 90%;
       height: 700px;
       border-radius: 5%;
-      background-color: rgb(44, 68, 68);
-      color: antiquewhite;
+      background-color: gainsboro;
+      color:black;
       align-items: center;
       padding: 2rem;
       margin-top: 7px;

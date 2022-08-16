@@ -25,7 +25,16 @@
 
 .header__icono {
   display: flex;
-  display: none; }
+  display: none;
+  margin: 0;
+  display: inline-block;
+  height: 18px;
+  float: none; }
+  .header__icono img {
+    margin: 0;
+    display: none;
+    height: 35px;
+    float: none; }
 
 .header__titulo {
   align-self: flex-start;
@@ -53,6 +62,8 @@
   margin-bottom: 15px;
   font-size: 30px;
   border: 2px; }
+  .barra__item a:hover {
+    color: #0d56c7; }
 
 .main {
   position: static;
@@ -210,7 +221,7 @@
 .publicar__imagenes1 {
   list-style: none;
   border-radius: 5%;
-  background-color: white;
+  background-color: gainsboro;
   width: 30%;
   height: 400px;
   align-items: baseline;
@@ -249,7 +260,7 @@
   width: 30%;
   height: 750px;
   border-radius: 12px;
-  background-color: white;
+  background-color: gainsboro;
   align-items: center;
   padding: 2rem;
   margin-top: 7px;
@@ -314,6 +325,22 @@
   .form__all {
     flex-wrap: wrap; } }
 
+@media screen and (max-width: 800px) {
+  .miperfil__form {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 90%;
+    height: 700px;
+    border-radius: 5%;
+    background-color: gainsboro;
+    color: black;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-left: 15px; } }
+
 @media screen and (max-width: 600px) {
   .barra__inicio {
     display: none;
@@ -327,7 +354,16 @@
   .barra__item a {
     border-bottom: solid; }
   .header__icono {
-    display: block; }
+    display: flex;
+    margin: 0;
+    display: inline-block;
+    height: 18px;
+    float: none; }
+    .header__icono img {
+      margin: 0;
+      display: flex;
+      height: 35px;
+      float: none; }
   .barra__inicio:target {
     display: block; }
   .barra__item--cerrar {
@@ -342,8 +378,8 @@
     width: 90%;
     height: 700px;
     border-radius: 5%;
-    background-color: #2c4444;
-    color: antiquewhite;
+    background-color: gainsboro;
+    color: black;
     align-items: center;
     padding: 2rem;
     margin-top: 7px;

@@ -13,6 +13,18 @@
   .header__icono {
     display: flex;
     display: none;
+    margin: 0;
+    display:inline-block;
+    height: 18px;
+    float:none; 
+    
+    & img {
+      margin: 0;
+    display:none;
+    height: 35px;
+    float:none;
+    }
+    
   }
   
   .header__titulo {
@@ -46,4 +58,9 @@
     font-size: 30px;
     border: 2px;
   
+
+    &:hover{ 
+      color: rgba(13,86,199,1);
+  
   }
+}
