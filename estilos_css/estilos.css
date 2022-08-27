@@ -5,18 +5,13 @@
 
 .inicio {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: #95b7c9;
-  background: radial-gradient(circle, #95b7c9 8%, #0d56c7 100%);
-  z-index: 1000;
-  color: antiquewhite;
+  background: #bac3c8;
   font-size: 20px;
-  color: black; }
+  color: #2d0404; }
 
 .header {
-  color: black;
-  background: #95b7c9;
-  background: radial-gradient(circle, #95b7c9 8%, #0d56c7 100%);
-  z-index: 1000;
+  color: #2d0404;
+  background: #d1d9e1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -130,11 +125,16 @@
   justify-items: center;
   padding: 1rem; }
 
+.boton__whatsapp {
+  border-radius: 58%;
+  margin-left: auto; }
+
 .form__imagen {
   display: flex;
   align-content: center;
   width: 300px;
-  height: 300px; }
+  height: 300px;
+  border-radius: 80%; }
 
 .footer {
   display: flex;
@@ -178,7 +178,7 @@
 
 .buscador__seccion {
   list-style: none;
-  color: black;
+  color: #2d0404;
   padding: 1rem;
   margin-top: 7px;
   margin-bottom: 25px; }
@@ -206,7 +206,13 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 25px 15px 15px 15px;
-  padding: 1rem; }
+  padding: 1rem;
+  flex-wrap: wrap; }
+
+.publicar__datos-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
 
 .publicar__imagenes {
   display: flex;
@@ -219,18 +225,24 @@
   color: black solid; }
 
 .publicar__imagenes1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   list-style: none;
   border-radius: 5%;
   background-color: gainsboro;
   width: 30%;
   height: 400px;
-  align-items: baseline;
   padding: 1rem;
-  margin-top: 7px;
-  margin-bottom: 25px; }
+  margin-top: 17px;
+  margin-bottom: 25px;
+  justify-content: space-between; }
 
-.publicar__imagenes2 {
-  margin: 1rem; }
+.publicar_imagenes2 {
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 2rem 4rem;
+  border-radius: 50%; }
 
 .publicar__boton {
   display: flex;
@@ -296,10 +308,11 @@
     margin: 7px;
     justify-content: center; }
   .main__mapa {
-    display: none;
     margin: 7px;
     position: relative;
     align-content: center; }
+  .contenedor__lista {
+    margin-top: 25px; }
   .footer {
     display: flex;
     align-content: space-around;
@@ -317,6 +330,8 @@
     flex-wrap: wrap;
     padding: 2px;
     justify-content: left; }
+  .publicar_imagenes2 {
+    margin: 0; }
   .form {
     display: flex;
     flex-direction: column;
@@ -326,33 +341,18 @@
     flex-wrap: wrap; } }
 
 @media screen and (max-width: 800px) {
-  .miperfil__form {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    width: 90%;
-    height: 700px;
-    border-radius: 5%;
-    background-color: gainsboro;
-    color: black;
-    align-items: center;
-    padding: 2rem;
-    margin-top: 7px;
-    margin-bottom: 25px;
-    margin-left: 15px; } }
-
-@media screen and (max-width: 600px) {
   .barra__inicio {
     display: none;
     position: fixed;
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: #124583;
+    background-color: #4d545e;
     width: 60%;
     height: 100vh; }
   .barra__item a {
-    border-bottom: solid; }
+    border-bottom: solid;
+    color: #dee2e6; }
   .header__icono {
     display: flex;
     margin: 0;
@@ -368,6 +368,29 @@
     display: block; }
   .barra__item--cerrar {
     display: block; }
+  .miperfil__form {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 90%;
+    height: 800px;
+    border-radius: 5%;
+    background-color: gainsboro;
+    color: black;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-left: 15px; }
+  .publicar__imagenes {
+    display: flex;
+    flex-direction: column; }
+  .publicar__imagenes1 {
+    width: 45%; }
+  .nosotros__parrafo--ignorado {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
   .miperfil {
     display: flex;
     flex-direction: column; }
@@ -376,7 +399,7 @@
     flex-direction: column;
     list-style: none;
     width: 90%;
-    height: 700px;
+    height: 800px;
     border-radius: 5%;
     background-color: gainsboro;
     color: black;
@@ -402,4 +425,15 @@
     flex-direction: column;
     margin: 15px; }
   .publicar__imagenes1 {
-    width: 90%; } }
+    display: flex;
+    width: 85%; } }
+
+@media screen and (max-width: 399px) {
+  .main__mapa {
+    width: auto;
+    height: auto; }
+  .buscador__seccion {
+    margin-left: 3rem; }
+  .publicar__imagenes1 {
+    display: flex;
+    width: 100%; } }

@@ -1,101 +1,145 @@
 
 @media screen and (max-width:1023px) {
 
-    .main {
-      display: flex;
-      margin-top: 0px;
-      margin-bottom: 25px;
-      flex-direction: column-reverse;
-      align-items: center;
-      justify-content: center;
-      padding: 12px;
-  
-  
-    }
-  
-    .main__modelos {
-      margin-top: 25px;
-      
-      align-items: center;
-  
-    }
-  
-    .main__modelos a {
-      margin: 7px;
-      align-items: center;
-      padding: 1rem;
-      border-bottom: solid;
-  
-    }
-  
-    .main__imagen {
-      height: 400px;
-      width: 100%;
-      display: flex;
-      margin: 7px;
-      justify-content: center;
-    }
-  
-    .main__mapa {
-      display: none;
-      margin: 7px;
-  
-      position: relative;
-      align-content: center;
-  
-    }
-  
-    .footer {
-      display: flex;
-      align-content: space-around;
-      flex-direction: column-reverse;
-    }
-  
-    .footer__p {
-      margin: 0px;
-    }
-  
-    .footer__a {
-      margin: 7px;
-      position: relative;
-    }
-  
-    .buscador {
-      
-      width: 100%;
-      margin: 25px;
-      font-style: unset;  
-    }
-  
-    .publicar__datos {
-      flex-wrap: wrap;
-      padding: 2px;
-      justify-content: left;
-    }
-  
-    .form {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      margin: 3px;
-  
+  .main {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
   }
-  .form__all{
+
+  .main__modelos {
+    margin-top: 25px;
+    align-items: center;
+  }
+
+  .main__modelos a {
+    margin: 7px;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: solid;
+  }
+
+  .main__imagen {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin: 7px;
+    justify-content: center;
+  }
+
+  .main__mapa {
+    
+    margin: 7px;
+
+    position: relative;
+    align-content: center;
+
+  }
+
+  .contenedor__lista{
+    margin-top: 25px;
+  }
+
+  .footer {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  .footer__p {
+    margin: 0px;
+  }
+
+  .footer__a {
+    margin: 7px;
+    position: relative;
+  }
+
+  .buscador {
+
+    width: 100%;
+    margin: 25px;
+    font-style: unset;
+  }
+
+  .publicar__datos {
     flex-wrap: wrap;
-  
-  
-  }
-  
+    padding: 2px;
+    justify-content: left;
   }
 
-  @media screen and (max-width:800px) {
+  .publicar__datos-items{
 
-  .miperfil__form{
+
+  }
+
+  .publicar_imagenes2{
+    margin: 0;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3px;
+  }
+
+  .form__all {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:800px) {
+  
+  .barra__inicio {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(77, 84, 94);
+    width: 60%;
+    height: 100vh;
+  }
+
+  .barra__item a {
+    border-bottom: solid;
+    color: #dee2e6;
+  }
+
+  .header__icono {
+    display: flex;
+    margin: 0;
+    display: inline-block;
+    height: 18px;
+    float: none;
+
+    & img {
+      margin: 0;
+      display: flex;
+      height: 35px;
+      float: none;
+    }
+  }
+
+  .barra__inicio:target {
+    display: block;
+  }
+
+  .barra__item--cerrar {
+    display: block;
+  }
+
+  .miperfil__form {
     display: flex;
     flex-direction: column;
     list-style: none;
     width: 90%;
-    height: 700px;
+    height: 800px;
     border-radius: 5%;
     background-color: gainsboro;
     color: black;
@@ -105,112 +149,86 @@
     margin-bottom: 25px;
     margin-left: 15px;
   }
- }
-  
-  
-  @media screen and (max-width:600px) {
-  
-    .barra__inicio {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      top: 0;
-      left: 0;
-      background-color: rgb(18, 69, 131);
-      width: 60%;
-      height: 100vh;
-    }
-  
-    .barra__item a {
-  
-      border-bottom: solid;
-    }
-  
-    .header__icono {
-      
-        display: flex;
-        margin: 0;
-        display:inline-block;
-        height: 18px;
-        float:none; 
-        
-        & img {
-          margin: 0;
-        display:flex;
-        height: 35px;
-        float:none;
-        }
-  
-    }
-  
-    .barra__inicio:target {
-      display: block;
-  
-    }
-  
-  
-    .barra__item--cerrar {
-      display: block;
-    }
-  
-    .miperfil {
-      display: flex;
-      flex-direction: column;
-  
-    }
-  
-    .miperfil__form {
-  
-      display: flex;
-      flex-direction: column;
-      list-style: none;
-      width: 90%;
-      height: 700px;
-      border-radius: 5%;
-      background-color: gainsboro;
-      color:black;
-      align-items: center;
-      padding: 2rem;
-      margin-top: 7px;
-      margin-bottom: 25px;
-      margin-left: 15px;
-  
-    }
-  
-    .miperfil__img {
-      margin: 2rem;
-      width: 100%;
-      height: 40%;
-    }
-  
-    .buscador {
-      display: flex;
-      flex-direction: column;
-      margin: 15px;
-      width: 90%;
-  
-    }
-  
-    .buscador__seccion {
-  
-      align-items: center;
-      direction: rtl;
-      width: 90%;
-  
-    }
-  
-    .publicar__imagenes {
-  
-      flex-direction: column;
-      margin: 15px;
-  
-    }
-  
-  
-    .publicar__imagenes1 {
-  
-      width: 90%;
-    }
-    
-  
+  .publicar__imagenes {
+    display: flex;
+    flex-direction: column;
   }
+
+  .publicar__imagenes1 {
+    width: 45%;
+  }
+
+.nosotros__parrafo--ignorado {
+  display: none;
+}
+}
+
+@media screen and (max-width:600px) {
+  .miperfil {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .miperfil__form {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 90%;
+    height: 800px;
+    border-radius: 5%;
+    background-color: gainsboro;
+    color: black;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+
+  .miperfil__img {
+    margin: 2rem;
+    width: 100%;
+    height: 40%;
+  }
+
+  .buscador {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 90%;
+  }
+
+  .buscador__seccion {
+    align-items: center;
+    direction: rtl;
+    width: 90%;
+  }
+
+  .publicar__imagenes {
+    flex-direction: column;
+    margin: 15px;
+
+  }
+  
+  .publicar__imagenes1 {
+    display: flex;
+    width: 85%;
+  }
+
+}
+
+@media screen and (max-width:399px) 
+{
+  .main__mapa { 
+    width: auto;
+    height: auto;
+  }
+
+  .buscador__seccion {
+  margin-left: 3rem;
+}
+
+.publicar__imagenes1 {
+  display: flex;
+  width: 100%;}
+}
