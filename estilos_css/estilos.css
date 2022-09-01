@@ -5,13 +5,13 @@
 
 .inicio {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: #bac3c8;
+  background: #f0f0f0;
   font-size: 20px;
   color: #2d0404; }
 
 .header {
   color: #2d0404;
-  background: #d1d9e1;
+  background: #e15454;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -73,7 +73,7 @@
 .main__carrusel {
   margin: 1px;
   align-items: center;
-  width: 100%; }
+  width: 99%; }
 
 .main__modelos {
   list-style: none;
@@ -107,6 +107,11 @@
   margin-left: 25px;
   margin-right: 25px; }
 
+.nosotros__parrafo--ignorado {
+  margin-bottom: 35px;
+  margin-left: 25px;
+  margin-right: 25px; }
+
 .form {
   display: flex;
   flex-direction: row;
@@ -135,6 +140,9 @@
   width: 300px;
   height: 300px;
   border-radius: 80%; }
+
+.boton__contacto {
+  background-color: #e15454; }
 
 .footer {
   display: flex;
@@ -230,7 +238,7 @@
   align-items: flex-start;
   list-style: none;
   border-radius: 5%;
-  background-color: gainsboro;
+  background-color: #e15454;
   width: 30%;
   height: 400px;
   padding: 1rem;
@@ -248,7 +256,7 @@
   display: flex;
   list-style: none;
   border-radius: 5%;
-  background-color: antiquewhite;
+  background-color: #e15454;
   color: black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   align-items: center;
@@ -272,12 +280,13 @@
   width: 30%;
   height: 750px;
   border-radius: 12px;
-  background-color: gainsboro;
+  background-color: #e15454;
   align-items: center;
   padding: 2rem;
   margin-top: 7px;
   margin-bottom: 25px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
 
 .miperfil__img {
   margin: 2rem;
@@ -388,7 +397,10 @@
   .publicar__imagenes1 {
     width: 45%; }
   .nosotros__parrafo--ignorado {
-    display: none; } }
+    display: none;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px; } }
 
 @media screen and (max-width: 600px) {
   .miperfil {

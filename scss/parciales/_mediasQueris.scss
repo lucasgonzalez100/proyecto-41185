@@ -1,4 +1,3 @@
-
 @media screen and (max-width:1023px) {
 
   .main {
@@ -32,7 +31,7 @@
   }
 
   .main__mapa {
-    
+
     margin: 7px;
 
     position: relative;
@@ -40,7 +39,7 @@
 
   }
 
-  .contenedor__lista{
+  .contenedor__lista {
     margin-top: 25px;
   }
 
@@ -72,12 +71,8 @@
     justify-content: left;
   }
 
-  .publicar__datos-items{
 
-
-  }
-
-  .publicar_imagenes2{
+  .publicar_imagenes2 {
     margin: 0;
   }
 
@@ -94,7 +89,7 @@
 }
 
 @media screen and (max-width:800px) {
-  
+
   .barra__inicio {
     display: none;
     position: fixed;
@@ -149,6 +144,7 @@
     margin-bottom: 25px;
     margin-left: 15px;
   }
+
   .publicar__imagenes {
     display: flex;
     flex-direction: column;
@@ -158,9 +154,12 @@
     width: 45%;
   }
 
-.nosotros__parrafo--ignorado {
-  display: none;
-}
+  .nosotros__parrafo--ignorado {
+    display: none;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -209,7 +208,7 @@
     margin: 15px;
 
   }
-  
+
   .publicar__imagenes1 {
     display: flex;
     width: 85%;
@@ -217,18 +216,18 @@
 
 }
 
-@media screen and (max-width:399px) 
-{
-  .main__mapa { 
+@media screen and (max-width:399px) {
+  .main__mapa {
     width: auto;
     height: auto;
   }
 
   .buscador__seccion {
-  margin-left: 3rem;
-}
+    margin-left: 3rem;
+  }
 
-.publicar__imagenes1 {
-  display: flex;
-  width: 100%;}
+  .publicar__imagenes1 {
+    display: flex;
+    width: 100%;
+  }
 }

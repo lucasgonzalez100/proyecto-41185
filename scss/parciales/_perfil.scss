@@ -17,13 +17,13 @@
     width: 30%;
     height: 750px;
     border-radius: 12px;
-    background-color: gainsboro;
+    background-color:$color_fondo--head;
     align-items: center;
     padding: 2rem;
     margin-top: 7px;
     margin-bottom: 25px;
     margin-left: 15px;
-  
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);  
   }
   
   .miperfil__img {
