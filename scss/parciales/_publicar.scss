@@ -65,6 +65,7 @@
     list-style: none;
     border-radius: 5%;
     background-color: $color_fondo--head;
+    &:hover{background-color:  rgb(54, 207, 187); }
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center;

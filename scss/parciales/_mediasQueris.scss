@@ -96,7 +96,7 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: rgb(77, 84, 94);
+    background-color:  rgb(14, 109, 96);
     width: 60%;
     height: 100vh;
   }
@@ -136,7 +136,7 @@
     width: 90%;
     height: 800px;
     border-radius: 5%;
-    background-color: gainsboro;
+    background-color: $color_fondo--head;
     color: black;
     align-items: center;
     padding: 2rem;
@@ -175,7 +175,7 @@
     width: 90%;
     height: 800px;
     border-radius: 5%;
-    background-color: gainsboro;
+    background-color: $color_fondo--head;
     color: black;
     align-items: center;
     padding: 2rem;

@@ -5,13 +5,14 @@
 
 .inicio {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: #f0f0f0;
+  background: #ebefdb;
   font-size: 20px;
   color: #2d0404; }
 
 .header {
   color: #2d0404;
-  background: #e15454;
+  background: #e3ffbf;
+  background: linear-gradient(140deg, #e3ffbf 3%, #109685 100%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,7 +143,9 @@
   border-radius: 80%; }
 
 .boton__contacto {
-  background-color: #e15454; }
+  background-color: #109685; }
+  .boton__contacto:hover {
+    background-color: #36cfbb; }
 
 .footer {
   display: flex;
@@ -238,7 +241,7 @@
   align-items: flex-start;
   list-style: none;
   border-radius: 5%;
-  background-color: #e15454;
+  background-color: #109685;
   width: 30%;
   height: 400px;
   padding: 1rem;
@@ -256,7 +259,7 @@
   display: flex;
   list-style: none;
   border-radius: 5%;
-  background-color: #e15454;
+  background-color: #109685;
   color: black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   align-items: center;
@@ -264,6 +267,8 @@
   margin-top: 7px;
   margin-bottom: 25px;
   margin-left: 15px; }
+  .publicar__boton:hover {
+    background-color: #36cfbb; }
 
 .miperfil {
   display: flex;
@@ -280,7 +285,7 @@
   width: 30%;
   height: 750px;
   border-radius: 12px;
-  background-color: #e15454;
+  background-color: #109685;
   align-items: center;
   padding: 2rem;
   margin-top: 7px;
@@ -356,7 +361,7 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: #4d545e;
+    background-color: #0e6d60;
     width: 60%;
     height: 100vh; }
   .barra__item a {
@@ -384,7 +389,7 @@
     width: 90%;
     height: 800px;
     border-radius: 5%;
-    background-color: gainsboro;
+    background-color: #109685;
     color: black;
     align-items: center;
     padding: 2rem;
@@ -413,7 +418,7 @@
     width: 90%;
     height: 800px;
     border-radius: 5%;
-    background-color: gainsboro;
+    background-color: #109685;
     color: black;
     align-items: center;
     padding: 2rem;
